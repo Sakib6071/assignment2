@@ -177,4 +177,7 @@ footer .fab{
         grid-template-columns: 1fr;
         
     }
+    .product{
+        margin: auto;
+    }
 }
