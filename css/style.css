@@ -163,8 +163,18 @@ footer .fab{
         text-align: center;
     }
     .all-products{
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 50px;
+        
+    }
+}
+
+@media only screen and (max-width:688px) {
+    .first .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .all-products{
+        grid-template-columns: 1fr;
+        
     }
 }
