@@ -1,0 +1,129 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* basic css */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 1250px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    margin: 30px 5px;
+}
+ul{
+    list-style-type: none;
+}
+
+
+/* navigation */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side ul{
+    display: flex;
+}
+.right-side ul li a{
+    font-size: 20px;
+}
+.right-side ul li{
+    margin: 10px 10px;
+}
+.navigation .logo{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* first-section */
+.description,.first-image{
+    width:80%
+}
+.first-image img{
+    display: block;
+    margin: auto;
+}
+.first .container{
+    display: flex;
+    align-items: center;
+}
+.first h2{
+    font-size: 52px;
+}
+.preebook-btn a{
+    color: #fff;
+    font-size: 16px;
+}
+.preebook-btn{
+    background-color: #E02C6D;
+    padding: 5px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* collection section */
+.collection-heading{
+    text-align: center;
+    font-size: 30px;
+}
+.filled{
+    color: gold;
+}
+.blank{
+    color:rgba(128, 128, 128, 0.425)
+}
+.product{
+    width: 320px;
+    background-color: rgba(128, 128, 128, 0.075);
+    padding: 10px 0;
+}
+.product .amount{
+    font-size: 22px;
+    font-weight: 500;
+}
+.see-more{
+   text-align: right;
+   margin-right: 60px;
+   
+}
+.see-more a{
+    color: #E02C6D;
+    font-weight: 500;
+}
+.product p,
+.product h2,
+.product img{
+padding-left: 10px;
+}
+.all-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+/* footer */
+footer{
+    background: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .fab{
+    color: #fff;
+    margin: 10px 10px;
+}
