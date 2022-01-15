@@ -42,6 +42,9 @@ ul{
 }
 
 /* first-section */
+
+
+
 .description,.first-image{
     width:80%
 }
@@ -55,6 +58,18 @@ ul{
 }
 .first h2{
     font-size: 52px;
+}
+.first-image img:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transition: transform 3s ease;
+    -webkit-transition: transform 3s ease;
+    -moz-transition: transform 3s ease;
+    -ms-transition: transform 3s ease;
+    -o-transition: transform 3s ease;
 }
 .preebook-btn a{
     color: #fff;
@@ -110,6 +125,11 @@ padding-left: 10px;
     grid-gap: 50px;
 }
 
+/* extra */
+.extra-heading{
+   text-align: center;
+}
+
 /* footer */
 footer{
     background: black;
@@ -126,4 +146,25 @@ footer ul{
 footer .fab{
     color: #fff;
     margin: 10px 10px;
+}
+
+
+@media only screen and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .right-side{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+    .logo p{
+        text-align: center;
+    }
+    .all-products{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+    }
 }
